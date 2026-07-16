@@ -7,6 +7,10 @@
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
 <style>
 :root { --bg:#0d1117; --card:rgba(20,26,34,0.92); --accent:#f9a825; --text:#e6edf3; --muted:#8b949e; }
+  /* Muller-Brockmann Grid System tokens */
+  :root { --cols:12; --bl:8px; --lh:24px; --gutter:24px; --margin:72px; --maxw:1296px; --grotesque:'Inter','Helvetica Now',Archivo,'Segoe UI',system-ui,sans-serif; --mono:'Space Mono','IBM Plex Mono',monospace; --grey:#9aa0a6; }
+  .credit { position:absolute; left:var(--margin); bottom:var(--bl); z-index:3; display:grid; grid-template-columns:repeat(var(--cols),1fr); column-gap:var(--gutter); font-family:var(--mono); font-size:11px; line-height:var(--lh); letter-spacing:0.4px; color:var(--grey); text-align:left; pointer-events:none; }
+  .credit span { grid-column:1 / -1; }
 * { box-sizing: border-box; }
 html, body { margin:0; height:100%; font-family: 'Segoe UI', system-ui, sans-serif; color:var(--text); }
 #map { position:absolute; inset:0; }
@@ -35,6 +39,7 @@ small.hint { display:block; color:var(--muted); font-size:11px; margin-top:8px; 
 </head>
 <body>
 <div id="map"></div>
+  <div class="credit"><span>Conceptualize by Derrick Mirindi, Frederic Mirindi, and David Sinkhonde - 2025</span></div>
 
 <div id="topbar">
 <div class="brand">AfriGrid <span>Atlas</span></div>
