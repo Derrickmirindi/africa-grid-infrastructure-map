@@ -1,12 +1,21 @@
 {
 "type": "FeatureCollection",
 "features": [
-{ "type": "Feature", "properties": { "name": "Inga II Hydroelectric", "country": "Democratic Republic of Congo", "fuel": "Hydro", "capacity_mw": 1424, "price_usd_mwh": 55 }, "geometry": { "type": "Point", "coordinates": [13.6206, -5.5289] } },
-{ "type": "Feature", "properties": { "name": "Aswan High Dam", "country": "Egypt", "fuel": "Hydro", "capacity_mw": 2100, "price_usd_mwh": 40 }, "geometry": { "type": "Point", "coordinates": [32.8778, 23.9707] } },
-{ "type": "Feature", "properties": { "name": "Medupi Power Station", "country": "South Africa", "fuel": "Coal", "capacity_mw": 4764, "price_usd_mwh": 70 }, "geometry": { "type": "Point", "coordinates": [27.5333, -23.7000] } },
-{ "type": "Feature", "properties": { "name": "Grand Ethiopian Renaissance Dam", "country": "Ethiopia", "fuel": "Hydro", "capacity_mw": 5150, "price_usd_mwh": 45 }, "geometry": { "type": "Point", "coordinates": [35.0925, 11.2150] } },
-{ "type": "Feature", "properties": { "name": "Kainji Dam", "country": "Nigeria", "fuel": "Hydro", "capacity_mw": 760, "price_usd_mwh": 60 }, "geometry": { "type": "Point", "coordinates": [4.6167, 9.8667] } },
-{ "type": "Feature", "properties": { "name": "Noor Ouarzazate Solar Complex", "country": "Morocco", "fuel": "Solar", "capacity_mw": 580, "price_usd_mwh": 85 }, "geometry": { "type": "Point", "coordinates": [-6.8628, 30.9950] } },
-{ "type": "Feature", "properties": { "name": "Lake Turkana Wind Power", "country": "Kenya", "fuel": "Wind", "capacity_mw": 310, "price_usd_mwh": 90 }, "geometry": { "type": "Point", "coordinates": [36.7500, 2.5500] } }
+{ "type": "Feature", "properties": { "name": "Inga II Hydroelectric", "country": "DR Congo", "region": "Central", "fuel": "Hydro", "capacity_mw": 1424, "year": 1982 }, "geometry": { "type": "Point", "coordinates": [13.6206, -5.5289] } },
+{ "type": "Feature", "properties": { "name": "Grand Inga (planned)", "country": "DR Congo", "region": "Central", "fuel": "Hydro", "capacity_mw": 11000, "year": 2030 }, "geometry": { "type": "Point", "coordinates": [13.5300, -5.5100] } },
+{ "type": "Feature", "properties": { "name": "Aswan High Dam", "country": "Egypt", "region": "North", "fuel": "Hydro", "capacity_mw": 2100, "year": 1970 }, "geometry": { "type": "Point", "coordinates": [32.8778, 23.9707] } },
+{ "type": "Feature", "properties": { "name": "Grand Ethiopian Renaissance Dam", "country": "Ethiopia", "region": "East", "fuel": "Hydro", "capacity_mw": 5150, "year": 2023 }, "geometry": { "type": "Point", "coordinates": [35.0925, 11.2150] } },
+{ "type": "Feature", "properties": { "name": "Kainji Dam", "country": "Nigeria", "region": "West", "fuel": "Hydro", "capacity_mw": 760, "year": 1968 }, "geometry": { "type": "Point", "coordinates": [4.6167, 9.8667] } },
+{ "type": "Feature", "properties": { "name": "Cahora Bassa", "country": "Mozambique", "region": "Southern", "fuel": "Hydro", "capacity_mw": 2075, "year": 1974 }, "geometry": { "type": "Point", "coordinates": [32.7050, -15.5850] } },
+{ "type": "Feature", "properties": { "name": "Noor Ouarzazate Solar Complex", "country": "Morocco", "region": "North", "fuel": "Solar", "capacity_mw": 580, "year": 2018 }, "geometry": { "type": "Point", "coordinates": [-6.8628, 30.9950] } },
+{ "type": "Feature", "properties": { "name": "Benban Solar Park", "country": "Egypt", "region": "North", "fuel": "Solar", "capacity_mw": 1650, "year": 2019 }, "geometry": { "type": "Point", "coordinates": [32.7400, 24.4500] } },
+{ "type": "Feature", "properties": { "name": "Jasper Solar", "country": "South Africa", "region": "Southern", "fuel": "Solar", "capacity_mw": 96, "year": 2014 }, "geometry": { "type": "Point", "coordinates": [22.5000, -28.5000] } },
+{ "type": "Feature", "properties": { "name": "Lake Turkana Wind Power", "country": "Kenya", "region": "East", "fuel": "Wind", "capacity_mw": 310, "year": 2019 }, "geometry": { "type": "Point", "coordinates": [36.7500, 2.5500] } },
+{ "type": "Feature", "properties": { "name": "Tarfaya Wind Farm", "country": "Morocco", "region": "North", "fuel": "Wind", "capacity_mw": 301, "year": 2014 }, "geometry": { "type": "Point", "coordinates": [-12.9200, 27.9400] } },
+{ "type": "Feature", "properties": { "name": "Olkaria Geothermal", "country": "Kenya", "region": "East", "fuel": "Geothermal", "capacity_mw": 799, "year": 1981 }, "geometry": { "type": "Point", "coordinates": [36.2920, -0.8850] } },
+{ "type": "Feature", "properties": { "name": "Medupi Power Station", "country": "South Africa", "region": "Southern", "fuel": "Coal", "capacity_mw": 4764, "year": 2015 }, "geometry": { "type": "Point", "coordinates": [27.5333, -23.7000] } },
+{ "type": "Feature", "properties": { "name": "Kusile Power Station", "country": "South Africa", "region": "Southern", "fuel": "Coal", "capacity_mw": 4800, "year": 2017 }, "geometry": { "type": "Point", "coordinates": [28.9500, -25.9200] } },
+{ "type": "Feature", "properties": { "name": "Escravos Gas Plant", "country": "Nigeria", "region": "West", "fuel": "Gas", "capacity_mw": 480, "year": 2005 }, "geometry": { "type": "Point", "coordinates": [5.1900, 5.5600] } },
+{ "type": "Feature", "properties": { "name": "Azito Power Plant", "country": "Ivory Coast", "region": "West", "fuel": "Gas", "capacity_mw": 430, "year": 1999 }, "geometry": { "type": "Point", "coordinates": [-4.1000, 5.3000] } }
 ]
 }
