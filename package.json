@@ -1,0 +1,18 @@
+{
+"name": "africa-grid-infrastructure-map",
+"version": "0.1.0",
+"private": true,
+"description": "AfriGrid Atlas - interactive atlas of Africa's power plants, transmission lines, substations, data centers, and locational electricity prices.",
+"scripts": {
+"dev": "vite",
+"build": "vite build",
+"preview": "vite preview",
+"data": "python scripts/build_data.py"
+},
+"dependencies": {
+"maplibre-gl": "^4.7.1"
+},
+"devDependencies": {
+"vite": "^5.4.0"
+}
+}
