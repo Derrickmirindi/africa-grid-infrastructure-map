@@ -1,0 +1,14 @@
+{
+"note": "Illustrative urban/rural electricity access (%) and urban-rural gap (pp). Source pattern: World Bank / IEA style indicators.",
+"countries": [
+{ "country": "DR Congo", "urban": 46, "rural": 1, "gap": 45, "lon": 23.6, "lat": -2.9 },
+{ "country": "Egypt", "urban": 100, "rural": 100, "gap": 0, "lon": 30.8, "lat": 26.8 },
+{ "country": "Ethiopia", "urban": 94, "rural": 39, "gap": 55, "lon": 40.5, "lat": 9.1 },
+{ "country": "Nigeria", "urban": 84, "rural": 26, "gap": 58, "lon": 8.7, "lat": 9.1 },
+{ "country": "Mozambique", "urban": 76, "rural": 5, "gap": 71, "lon": 35.5, "lat": -18.7 },
+{ "country": "Morocco", "urban": 100, "rural": 100, "gap": 0, "lon": -7.1, "lat": 31.8 },
+{ "country": "South Africa", "urban": 91, "rural": 76, "gap": 15, "lon": 24.7, "lat": -28.5 },
+{ "country": "Kenya", "urban": 94, "rural": 66, "gap": 28, "lon": 37.9, "lat": 0.0 },
+{ "country": "Ivory Coast", "urban": 96, "rural": 55, "gap": 41, "lon": -5.5, "lat": 7.5 }
+]
+}
