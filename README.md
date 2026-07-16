@@ -1,5 +1,9 @@
 # AfriGrid Atlas — Africa Grid Infrastructure Map
 
+# Developed by Derrick Mirindi, Frederic Mirindi & David Sinkhonde
+
+<img width="1908" height="982" alt="image" src="https://github.com/user-attachments/assets/008e1a31-452c-4a84-826e-f2f33fb5bb53" />
+
 AfriGrid Atlas is an interactive atlas that maps Africa's electricity grid in one place: power plants, transmission lines, substations, data centers, and locational electricity prices. It is an African adaptation of the US Grid Infrastructure Map (InfraMap, inframap.org), rebuilt with the same feature set for the African context.
 
 ## Motivation
@@ -56,6 +60,4 @@ Africa's electricity challenge is not only to produce more power, it is to ensur
 - [ ] Add locational price and access layers
 - [ ] Deploy public site
 
-## License
-
-TBD
+## We are opened for collaboration.
