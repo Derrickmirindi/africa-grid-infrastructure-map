@@ -10,6 +10,7 @@ const FUEL_COLORS = [
 'Geothermal', '#ef5350',
 'Coal', '#78909c',
 'Gas', '#ab47bc',
+  'Nuclear', '#26c6da',
 '#cccccc'
 ];
 
