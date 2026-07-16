@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "name": "Inga II Hydroelectric", "country": "Democratic Republic of Congo", "fuel": "Hydro", "capacity_mw": 1424, "price_usd_mwh": 55 }, "geometry": { "type": "Point", "coordinates": [13.6206, -5.5289] } },
+{ "type": "Feature", "properties": { "name": "Aswan High Dam", "country": "Egypt", "fuel": "Hydro", "capacity_mw": 2100, "price_usd_mwh": 40 }, "geometry": { "type": "Point", "coordinates": [32.8778, 23.9707] } },
+{ "type": "Feature", "properties": { "name": "Medupi Power Station", "country": "South Africa", "fuel": "Coal", "capacity_mw": 4764, "price_usd_mwh": 70 }, "geometry": { "type": "Point", "coordinates": [27.5333, -23.7000] } },
+{ "type": "Feature", "properties": { "name": "Grand Ethiopian Renaissance Dam", "country": "Ethiopia", "fuel": "Hydro", "capacity_mw": 5150, "price_usd_mwh": 45 }, "geometry": { "type": "Point", "coordinates": [35.0925, 11.2150] } },
+{ "type": "Feature", "properties": { "name": "Kainji Dam", "country": "Nigeria", "fuel": "Hydro", "capacity_mw": 760, "price_usd_mwh": 60 }, "geometry": { "type": "Point", "coordinates": [4.6167, 9.8667] } },
+{ "type": "Feature", "properties": { "name": "Noor Ouarzazate Solar Complex", "country": "Morocco", "fuel": "Solar", "capacity_mw": 580, "price_usd_mwh": 85 }, "geometry": { "type": "Point", "coordinates": [-6.8628, 30.9950] } },
+{ "type": "Feature", "properties": { "name": "Lake Turkana Wind Power", "country": "Kenya", "fuel": "Wind", "capacity_mw": 310, "price_usd_mwh": 90 }, "geometry": { "type": "Point", "coordinates": [36.7500, 2.5500] } }
+]
+}
